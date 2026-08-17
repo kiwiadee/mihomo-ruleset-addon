@@ -1,0 +1,15 @@
+payload:
+  - "+.openai.com"
+  - "+.pay.openai.com"
+  - "+.chat.openai.com"
+  - "+.auth0.openai.com"
+  - "+.platform.openai.com"
+  - "+.chatgpt.com"
+
+  #NOTE: District detecting not only by the main website, but and other googole website
+  - "gemini.google.com"
+  - "gemini.gstatic.com"
+  # google ai studio 网页端有地区限制，以下域名列表无法解决这个问题
+  # 规则模式需要在<节点选择>中选择 支持ai studio使用地区 的节点
+  # 或者全局模式选择 支持 ai studio 的地区节点
+  - "generativelanguage.googleapis.com" # for google Gemini usage (ai studio and gemini inside cherrystudio)

@@ -1,0 +1,23 @@
+payload:
+  - "asmr.121231234.xyz" # 这是'asmrgay.com'的下载服务器，可以aria2c直连下载，（这里的规则无所谓，因为会先被< applications,DIRECT >规则命中）
+#  - "linux.do" # ~~代理访问速度不佳~~,2025-11-30已经被cf拦截
+  - "+.epicgames.com" # 代理可能无法下单
+
+  # email for thunderbird,可以直连,反而代理无法连接服务器
+  # outlook: smtp.office365.com:465, outlook.office365.com:993
+  # gmail: smtp.gmail.com:587, imap.gmail.com:993
+  # outlook
+  - "smtp.office365.com"
+  - "outlook.office365.com"
+  # gmail
+  - "smtp.gmail.com"
+  - "imap.gmail.com"
+
+  # 我的机场似乎不允许NTP协议的123端口代理，改为直连
+  - "0.arch.pool.ntp.org"
+  - "1.arch.pool.ntp.org"
+  - "2.arch.pool.ntp.org"
+  - "3.arch.pool.ntp.org"
+
+  - "www.agedm.vip"
+  - "www.agedm.io"

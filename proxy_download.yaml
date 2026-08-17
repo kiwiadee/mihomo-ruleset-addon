@@ -1,0 +1,26 @@
+payload:
+
+# 目前流量够用,后续可能考虑将yay更新纳入到这个规则中
+  - DOMAIN,n1.coomer.su # download server of coomer
+  - DOMAIN-SUFFIX,coomer.su # main server of coomer
+
+  - DOMAIN,c.bunkr-cache.se # download server of bunkr
+  # main server of bunkr
+  - DOMAIN-KEYWORD,bunkr
+  - DOMAIN-KEYWORD,bunkrr
+  # - 'bunkr.fi'
+  # - 'bunkr.black'
+  # - 'bunkr.ac'
+  # - 'bunkr.si'
+  # - 'bunkr-albums.io'
+  # - 'get.bunkrr.su'
+
+  - DOMAIN,pixeldrain.com
+  - DOMAIN-SUFFIX,pixeldrain.com
+
+  - DOMAIN,gofile.io
+  - DOMAIN-SUFFIX,gofile.io
+
+  # pikpak
+  - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-KEYWORD,pikpak

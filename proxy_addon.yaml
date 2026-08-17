@@ -1,0 +1,8 @@
+payload:
+  - "asmrgay.com" # 可以直连访问，稍慢，代理加速，下载服务器直连(见./direct_addon.yaml)
+  - "xn--mes358a9urctx.com" # 顶级机场域名'顶级机场.com',只能代理
+  - "community.aseprite.org"
+  - "jreleases.moe"
+  - "my.dnshe.com"
+  - "dnshe.com"
+  # - "forum.archlinuxcn.org"

@@ -1,0 +1,48 @@
+payload:
+  - DOMAIN-KEYWORD,missav
+  - DOMAIN-KEYWORD,javmost
+  # others
+  #  - DOMAIN-KEYWORD,bilibili
+
+  # 从leechblock-forbidden组复制而来
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN,forum.sorrymother.video
+  - DOMAIN,haijiao.pro
+  - DOMAIN,hsex.icu
+  - DOMAIN,javbus.com
+  - DOMAIN,nhentai.net
+  - DOMAIN,rou.video
+  - DOMAIN,simpcity.su
+  - DOMAIN,simpcity.cr
+  - DOMAIN,u9a9.net
+  - DOMAIN,u3a3.net
+  - DOMAIN,xchina.biz
+  - DOMAIN,xvideos.com
+
+  - DOMAIN,south-plus.net
+  - DOMAIN-KEYWORD,-plus
+
+  # 以下内容自proxy_download移动到此处
+  - DOMAIN,n1.coomer.su # download server of coomer
+  - DOMAIN-SUFFIX,coomer.su # main server of coomer
+
+  - DOMAIN,c.bunkr-cache.se # download server of bunkr
+  # main server of bunkr
+  - DOMAIN-KEYWORD,bunkr
+  - DOMAIN-KEYWORD,bunkrr
+  # - 'bunkr.fi'
+  # - 'bunkr.black'
+  # - 'bunkr.ac'
+  # - 'bunkr.si'
+  # - 'bunkr-albums.io'
+  # - 'get.bunkrr.su'
+
+  - DOMAIN,pixeldrain.com
+  - DOMAIN-SUFFIX,pixeldrain.com
+
+  - DOMAIN,gofile.io
+  - DOMAIN-SUFFIX,gofile.io
+
+  # pikpak
+  - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-KEYWORD,pikpak
